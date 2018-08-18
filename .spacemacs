@@ -48,6 +48,7 @@ values."
      emacs-lisp
      syntax-checking
      colors
+     (colors :variables colors-enable-nyan-cat-progress-bar t)
      ;; git
      ;; markdown
      ;; org
@@ -308,7 +309,6 @@ executes.
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
   (setq-default git-magit-status-fullscreen t)
-  (colors :variables colors-enable-nyan-cat-progress-bar t)
   )
 
 (defun dotspacemacs/user-config ()
